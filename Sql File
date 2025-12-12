@@ -1,0 +1,20 @@
+
+
+create table emp_details(
+emp_id int unique key,
+emp_name varchar(50) not null,
+emp_phone varchar(20),
+gender varchar(10),
+salary float );
+
+create table stock(
+stock_id int unique key,
+stock_name varchar(30) not null,
+stock_price int ,
+stock_quantity int);
+
+create table customer(
+c_id int unique key,
+c_name varchar(50) not null,
+amt int,
+purchase_date datetime );
